@@ -4,6 +4,6 @@
 Feature: CasDeTestBDDCucumber
 
 	Scenario: CasDeTestBDDCucumber
-		Given today is Sunday
-		When I ask whether it's Friday yet
-		Then I should be told "Nope"
+		Given la machine est en marche
+		When je passe mon badge
+		Then je constate que mon solde s'affiche
