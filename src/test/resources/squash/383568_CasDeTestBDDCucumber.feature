@@ -1,9 +1,9 @@
-# Automation priority: null
-# Test case importance: Low
-# language: en
-Feature: CasDeTestBDDCucumber
+# Priorité d'automatisation: null
+# Importance du cas de test: Faible
+# language: fr
+Fonctionnalité: CasDeTestBDDCucumber
 
-	Scenario: CasDeTestBDDCucumber
-		Given la machine est en marche
-		When je passe mon badge
-		Then je constate que mon solde s'affiche
+	Scénario: CasDeTestBDDCucumber
+		Étant donné que la machine est en marche
+		Quand je passe mon badge
+		Alors je constate que mon solde s'affiche
