@@ -3,7 +3,17 @@
 # language: en
 Feature: isItFriday
 
-	Scenario: isItFriday
+	Scenario Outline: isItFriday
 		Given today is Sunday
 		When I ask whether it's Friday yet
-		Then I should be told "Nope"
+		Then I should be told <answer>
+
+		@KO
+		Examples:
+		| answer |
+		| "YES" |
+
+		@OK
+		Examples:
+		| answer |
+		| "NO" |
