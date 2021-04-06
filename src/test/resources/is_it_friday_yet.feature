@@ -1,5 +1,5 @@
 @run
-Feature: Is it Friday yet?
+Feature: Is_it_Friday_yet
   Everybody wants to know when it's Friday
 
   Scenario: Sunday isn't Friday
