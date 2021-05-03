@@ -34,4 +34,18 @@ public class IsItFriday {
        System.out.println("FRIDAYYY");
     }
 
+    @Given("^first number is (\\d+)$")
+    public void first_number(int number)  {
+    
+    }
+
+    @When("^second number is (\\d+)$")
+    public void second_number(int number)  {
+    
+    }
+
+    @Then("^sum should be (\\d+)$")
+    public void sum_should_be(int number) {
+    
+    }
   }
